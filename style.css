@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #1c1c1e;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hero-image {
+  background-image: url("https://images.unsplash.com/photo-1530514048397-56c180eb831f");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 30px;
+}
+
+.about {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 40px;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.accomplishments {
+  background-color: #1c1c1e;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.accomplishments h2 {
+  font-size: 40px;
+}
+
+.accomplishments ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.accomplishments li {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.accomplishments-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.quotes {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+.quotes h2 {
+  font-size: 40px;
+}
+
+blockquote {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 50px 0;
+}
+
+footer {
+  background-color: #1c1c1e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+}
